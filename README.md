@@ -1,3 +1,5 @@
+# This is a React Tutorial Repo. it containes series of small apps built using react.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

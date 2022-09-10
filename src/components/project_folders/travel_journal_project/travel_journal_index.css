@@ -1,0 +1,12 @@
+/* BASE STYLES */
+:root {
+  --bs-pink: #d63384;
+}
+
+html {
+  font-size: 100%;
+}
+
+.bg-pink {
+  background-color: var(--bs-pink);
+}
