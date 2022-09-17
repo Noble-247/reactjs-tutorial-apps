@@ -1,26 +1,16 @@
 import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Meme from "./components/Meme";
-import WindowTrackerApp from "./test_components/WindowTrackerApp";
-/*import TestGetData from "./test_components/TestGetData";
- import AppTest from "./test_components/AppTest";
-import Form from "./test_components/Form";
-import Paragraphs from "./test_components/Paragraphs";
-import SignupForm from "./test_components/SignupForm"; */
+import AirbnbApp from "./components/project_folders/airbnb_project/AirbnbApp";
+import MemeGeneratorApp from "./components/project_folders/memes_generator_project/MemeGeneratorApp";
+import ReactInfoApp from "./components/project_folders/react_info_site_project/ReactInfoApp";
+import TravelJournalApp from "./components/project_folders/travel_journal_project/TravelJournalApp";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Meme />
-      <Footer />
-      {/* <AppTest /> */}
-      {/* <Paragraphs /> */}
-      {/* <Form /> */}
-      {/* <SignupForm /> */}
-      {/*  <TestGetData /> */}
-      <WindowTrackerApp />
+      {/* <AirbnbApp /> */}
+      {/* <MemeGeneratorApp /> */}
+      <ReactInfoApp />
+      {/* <TravelJournalApp /> */}
     </div>
   );
 }

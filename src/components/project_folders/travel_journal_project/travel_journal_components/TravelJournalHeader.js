@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function TravelJournalHeader() {
   return (
     <div className='p-3 bg-pink text-center text-white'>
       <span className='bi bi-globe h4'></span>{" "}
@@ -9,4 +9,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default TravelJournalHeader;

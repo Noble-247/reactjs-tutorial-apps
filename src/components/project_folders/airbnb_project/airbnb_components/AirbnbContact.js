@@ -1,7 +1,7 @@
 import React from "react";
-import Card1 from "../img/card-1.jpg";
+import Card1 from "../airbnb_img/card-1.jpg";
 
-function Contact(props) {
+function AirbnbContact(props) {
   /*  const star = "⭐";
   const itemRating = `5.0(6) . USA`;
   const itemName = "French Design Bedrooms Available";
@@ -25,4 +25,4 @@ function Contact(props) {
   );
 }
 
-export default Contact;
+export default AirbnbContact;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(props) {
+function AirbnbCard(props) {
   console.log(props);
   let badgeText;
   if (props.item.openSpot === 0) {
@@ -33,4 +33,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default AirbnbCard;

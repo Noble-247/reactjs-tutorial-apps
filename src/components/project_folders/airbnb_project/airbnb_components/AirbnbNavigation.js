@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../img/Airbnb-logo.png";
+import logo from "../airbnb_img/Airbnb-logo.png";
 
-function Navigation() {
+function AirbnbNavigation() {
   const date = new Date();
   const hours = date.getHours();
   let timeOfDay;
@@ -39,4 +39,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default AirbnbNavigation;

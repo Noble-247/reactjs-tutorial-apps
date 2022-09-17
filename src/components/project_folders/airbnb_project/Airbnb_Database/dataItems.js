@@ -1,7 +1,7 @@
-import FirstImage from "../img/card-1.jpg";
-import SecondImage from "../img/card-2.jpg";
-import ThirdImage from "../img/card-3.jpg";
-import FourthImage from "../img/card-4.jpg";
+import FirstImage from "../airbnb_img/card-1.jpg";
+import SecondImage from "../airbnb_img/card-2.jpg";
+import ThirdImage from "../airbnb_img/card-3.jpg";
+import FourthImage from "../airbnb_img/card-4.jpg";
 
 const dataItems = [
   {

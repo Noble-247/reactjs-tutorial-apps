@@ -1,6 +1,6 @@
 import React from "react";
 
-function PlaceVisited(props) {
+function TravelJournalPlaceVisited(props) {
   console.log(props.item);
 
   return (
@@ -49,4 +49,4 @@ function PlaceVisited(props) {
   );
 }
 
-export default PlaceVisited;
+export default TravelJournalPlaceVisited;

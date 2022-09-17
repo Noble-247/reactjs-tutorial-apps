@@ -1,7 +1,7 @@
-import MountFuji from "../img/Mount_Fuji.jpg";
-import SydneyOperaHouse from "../img/Sydney_Opera_House.jpg";
-import MountKilimanjaro from "../img/Mount_Kilimanjaro.jpg";
-import EiffelTower from "../img/Eiffel_Tower.jpg";
+import MountFuji from "../travel_journal_img/Mount_Fuji.jpg";
+import SydneyOperaHouse from "../travel_journal_img/Sydney_Opera_House.jpg";
+import MountKilimanjaro from "../travel_journal_img/Mount_Kilimanjaro.jpg";
+import EiffelTower from "../travel_journal_img/Eiffel_Tower.jpg";
 
 const dataItems = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function TravelJournalFooter() {
   return (
     <div className='bg-pink text-center p-4 text-white'>
       <p className='p-0 m-0'>
@@ -11,4 +11,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default TravelJournalFooter;

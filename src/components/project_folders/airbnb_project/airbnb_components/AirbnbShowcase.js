@@ -1,7 +1,7 @@
 import React from "react";
-import ShowcaseImage from "../img/showcase.jpg";
+import ShowcaseImage from "../airbnb_img/showcase.jpg";
 
-function Showcase() {
+function AirbnbShowcase() {
   return (
     <React.Fragment>
       <section className='container showcase'>
@@ -18,4 +18,4 @@ function Showcase() {
   );
 }
 
-export default Showcase;
+export default AirbnbShowcase;

@@ -1,0 +1,40 @@
+/* BASE STYLES */
+:root {
+  --bs-purple-gradient: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  --bs-purple: #672280;
+  --bs-white: #ffff;
+}
+
+html {
+  font-size: 100%;
+}
+
+.bg-purple {
+  background-color: var(--bs-purple);
+}
+
+.btn:hover {
+  background-color: #a626d3;
+}
+
+.meme-container {
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  color: var(--bs-white);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 90px;
+  left: 15px;
+  color: var(--bs-white);
+  font-weight: bold;
+  text-transform: uppercase;
+}

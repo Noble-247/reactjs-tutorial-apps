@@ -1,17 +1,18 @@
 import React from "react";
-import Card from "./components/Card";
-import Navigation from "./components/Navigation";
-import Showcase from "./components/Showcase";
-import dataItems from "./Database/dataItems";
+import "./AirbnbApp.css";
+import AirbnbCard from "./airbnb_components/AirbnbCard";
+import AirbnbNavigation from "./airbnb_components/AirbnbNavigation";
+import AirbnbShowcase from "./airbnb_components/AirbnbShowcase";
+import dataItems from "./Airbnb_Database/dataItems";
 
 function App() {
   const dataElements = dataItems.map((item) => {
-    return <Card key={item.id} item={item} />;
+    return <AirbnbCard key={item.id} item={item} />;
   });
   return (
     <div>
-      <Navigation />
-      <Showcase />
+      <AirbnbNavigation />
+      <AirbnbShowcase />
       {/* <Contact /> */}
       <div
         className='container'
