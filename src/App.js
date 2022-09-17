@@ -2,10 +2,12 @@ import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Meme from "./components/Meme";
-import AppTest from "./test_components/AppTest";
+import WindowTrackerApp from "./test_components/WindowTrackerApp";
+/*import TestGetData from "./test_components/TestGetData";
+ import AppTest from "./test_components/AppTest";
 import Form from "./test_components/Form";
 import Paragraphs from "./test_components/Paragraphs";
-import SignupForm from "./test_components/SignupForm";
+import SignupForm from "./test_components/SignupForm"; */
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <AppTest /> */}
       {/* <Paragraphs /> */}
       {/* <Form /> */}
-      <SignupForm />
+      {/* <SignupForm /> */}
+      {/*  <TestGetData /> */}
+      <WindowTrackerApp />
     </div>
   );
 }

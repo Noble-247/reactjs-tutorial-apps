@@ -2,6 +2,7 @@
 :root {
   --bs-purple-gradient: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   --bs-purple: #672280;
+  --bs-white: #ffff;
 }
 
 html {
@@ -14,4 +15,26 @@ html {
 
 .btn:hover {
   background-color: #a626d3;
+}
+
+.meme-container {
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  color: var(--bs-white);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 90px;
+  left: 15px;
+  color: var(--bs-white);
+  font-weight: bold;
+  text-transform: uppercase;
 }
