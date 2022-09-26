@@ -3,7 +3,7 @@ import TrollFaceMeme from "../img/troll_face.png";
 
 function Header() {
   return (
-    <div className='container-fluid bg-purple'>
+    <div className='container-fluid meme-bg-purple'>
       <header className='container text-white d-flex align-items-center justify-content-between'>
         <div className='d-flex align-items-center'>
           <img

@@ -8,7 +8,7 @@ function Meme() {
     randomImageURL: TrollFace,
   });
 
-  const [allMemes, setAllMemes] = React.useState([]);
+  const [allMemes, setAllMemes] = useState([]);
 
   useEffect(() => {
     fetch(`https://api.imgflip.com/get_memes`)
@@ -60,7 +60,7 @@ function Meme() {
         <div className='d-grid gap-2'>
           <button
             onClick={getMemeImage}
-            className='btn bg-purple text-white'
+            className='meme-btn meme-bg-purple text-white'
             type='button'
           >
             Get a new image
