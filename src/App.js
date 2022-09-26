@@ -4,6 +4,7 @@ import MemeGeneratorApp from "./components/project_folders/memes_generator_proje
 import NotesApp from "./components/project_folders/notes_app/NotesApp";
 import ReactInfoApp from "./components/project_folders/react_info_site_project/ReactInfoApp";
 import TravelJournalApp from "./components/project_folders/travel_journal_project/TravelJournalApp";
+import TenziesApp from "./components/tenzies_game_project/TenziesApp";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <MemeGeneratorApp /> */}
       {/* <ReactInfoApp /> */}
       {/* <TravelJournalApp /> */}
-      <NotesApp />
+      {/* <NotesApp /> */}
+      <TenziesApp />
     </div>
   );
 }
