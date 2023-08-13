@@ -56,7 +56,7 @@ function SignupForm() {
     }));
   }
 
-  //console.log(formData);
+  // console.log(formData);
 
   return (
     <div className='container bg-purple p-3 mt-3'>
@@ -65,6 +65,7 @@ function SignupForm() {
 
         <div className='mb-3 mt-3'>
           <input
+            required
             className='form-control'
             placeholder='user name'
             value={formData.userName}
@@ -75,6 +76,7 @@ function SignupForm() {
         </div>
         <div className='mb-3'>
           <input
+            required
             className='form-control'
             placeholder='email'
             value={formData.email}
@@ -85,6 +87,7 @@ function SignupForm() {
         </div>
         <div className='mb-3'>
           <input
+            required
             className='form-control'
             placeholder='password'
             value={formData.password}
@@ -95,6 +98,7 @@ function SignupForm() {
         </div>
         <div className='mb-3'>
           <input
+            required
             className='form-control'
             placeholder='confirm password'
             value={formData.confirmPassword}
@@ -106,6 +110,7 @@ function SignupForm() {
 
         <div className='mb-3 form-check'>
           <input
+            required
             className='form-check-input'
             type='checkbox'
             name='recieveOtherNews'
@@ -118,7 +123,7 @@ function SignupForm() {
           </label>
         </div>
 
-        <button className='btn bg-purple text-white' type='submit'>
+        <button className='btn bg-primary text-white' type='submit'>
           Subscribe!
         </button>
         <p className='text-danger'>{errorMessage}</p>
