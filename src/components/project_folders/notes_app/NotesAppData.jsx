@@ -1,4 +1,4 @@
-export const notesAppData = [
+export const NotesAppData = [
   {
     id: 1,
     body: `### This just in!

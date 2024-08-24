@@ -1,14 +1,15 @@
-import React from "react";
 import NavigationBar from "./NavigationBar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 
 function RootLayout() {
   return (
-    <div className='container-fluid bg-light'>
+    <div className="container-fluid p-0 bg-light">
       <NavigationBar />
       <section>
-        <Outlet />
+        <div id="app">
+          <Outlet />
+        </div>
       </section>
       <Footer />
     </div>
