@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import { useReducer } from "react";
 /* import { Container, Form, FormControl } from "react-bootstrap"; */
 
 function UseReducer2() {
