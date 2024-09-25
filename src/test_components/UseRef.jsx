@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function UseRef() {
   // input ref
@@ -34,29 +34,29 @@ function UseRef() {
   });
 
   return (
-    <div className='mt-5 w-75 mx-auto text-center'>
+    <div className="mt-5 w-75 mx-auto text-center">
       <h3>Using useRef to access underlying DOM</h3>
       <input
-        className='form-control'
+        className="form-control"
         ref={formInputRef}
-        type='text'
-        name='name'
-        id='name'
+        type="text"
+        name="name"
+        id="name"
       />
-      <button className='btn btn-dark d-inline-block mt-4' onClick={focusInput}>
+      <button className="btn btn-dark d-inline-block mt-4" onClick={focusInput}>
         Focus Input
       </button>
       <textarea
-        className='d-block form-control mt-5'
+        className="d-block form-control mt-5"
         ref={formTextAreaRef}
-        name='message'
-        id='message'
-        cols='30'
-        rows='10'
-        placeholder='your message here.....'
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="your message here....."
       ></textarea>
 
-      <div className='mt-5 border p-4'>
+      <div className="mt-5 border p-4">
         <div>
           {names.map((name) => (
             <p key={name.id}>
@@ -65,8 +65,8 @@ function UseRef() {
           ))}
         </div>
         <form onSubmit={addName}>
-          <input className='form-control' type='text' ref={nameInputRef} />
-          <button className='btn btn-dark mt-3' type='submit'>
+          <input className="form-control" type="text" ref={nameInputRef} />
+          <button className="btn btn-dark mt-3" type="submit">
             Add Name
           </button>
         </form>

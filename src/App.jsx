@@ -25,55 +25,57 @@ import ReactVideoPlayer from "./test_components/ReactVideoPlayer";
 import ListItems from "./test_components/ListItems";
 import SignupForm from "./test_components/SignupForm";
 import UseReducer from "./test_components/UseReducer";
-import UseRef from "./test_components/UseRef";
 import ReactChildren from "./test_components/ReactChildren";
 import AddToList from "./test_components/AddToList";
 import UseReducer2 from "./test_components/UseReducer2";
 import Filter from "./test_components/Filter";
 import UseMemo from "./test_components/UseMemo";
+import UseRefDemo2 from "./components/allHooks/all_hooks_components/UseRefDemo2";
+import UseLayoutEffect from "./components/allHooks/all_hooks_components/UseLayoutEffect";
 
 function App() {
   const Router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<RootLayout />}>
+      <Route path="/" element={<RootLayout />}>
         <Route index element={<ReactBasics />} />
         {/* MAIN PROJECTS ROUTES */}
-        <Route path='airbnb-demo-app' element={<AirbnbApp />} />
-        <Route path='meme-generator-app' element={<MemeGeneratorApp />} />
-        <Route path='react-info-app' element={<ReactInfoApp />} />
-        <Route path='travel-journal-app' element={<TravelJournalApp />} />
-        <Route path='notes-app' element={<NotesApp />} />
-        <Route path='tenzies-app' element={<TenziesApp />} />
-        <Route path='todolist-app' element={<TodoList />} />
-        <Route path='calculator-app' element={<Calculator />} />
-        <Route path='all-react-hooks' element={<AllHooksApp />} />
+        <Route path="airbnb-demo-app" element={<AirbnbApp />} />
+        <Route path="meme-generator-app" element={<MemeGeneratorApp />} />
+        <Route path="react-info-app" element={<ReactInfoApp />} />
+        <Route path="travel-journal-app" element={<TravelJournalApp />} />
+        <Route path="notes-app" element={<NotesApp />} />
+        <Route path="tenzies-app" element={<TenziesApp />} />
+        <Route path="todolist-app" element={<TodoList />} />
+        <Route path="calculator-app" element={<Calculator />} />
+        <Route path="all-react-hooks" element={<AllHooksApp />} />
         {/* TEST PROJECTS ROUTES */}
         <Route
-          path='conditional-rendering'
+          path="conditional-rendering"
           element={<ConditionalRendering />}
         />
-        <Route path='react-video-player' element={<ReactVideoPlayer />} />
-        <Route path='list-items' element={<ListItems />} />
-        <Route path='signup-form' element={<SignupForm />} />
-        <Route path='use-reducer' element={<UseReducer />} />
-        <Route path='use-ref' element={<UseRef />} />
-        <Route path='react-children' element={<ReactChildren />} />
-        <Route path='add-to-list' element={<AddToList />} />
-        <Route path='use-reducer-2' element={<UseReducer2 />} />
-        <Route path='filter' element={<Filter />} />
-        <Route path='use-memo' element={<UseMemo />} />
+        <Route path="react-video-player" element={<ReactVideoPlayer />} />
+        <Route path="list-items" element={<ListItems />} />
+        <Route path="signup-form" element={<SignupForm />} />
+        <Route path="use-reducer" element={<UseReducer />} />
+        <Route path="use-ref" element={<UseRefDemo2 />} />
+        <Route path="react-children" element={<ReactChildren />} />
+        <Route path="add-to-list" element={<AddToList />} />
+        <Route path="use-reducer-2" element={<UseReducer2 />} />
+        <Route path="filter" element={<Filter />} />
+        <Route path="use-memo" element={<UseMemo />} />
+        <Route path="use-layout-effect" element={<UseLayoutEffect />} />
         <Route
-          path='*'
+          path="*"
           element={
             <section
               style={{ height: "100vh" }}
-              className='d-flex flex-column align-items-center justify-content-center bg-light text-center'
+              className="d-flex flex-column align-items-center justify-content-center bg-light text-center"
             >
               <h2 style={{ width: "55%" }}>
                 SORRY, THE PAGE YOU ARE TRYING TO VIEW HAS DOES NOT EXIST OR HAD
                 BEEN DELETED OR MOVED
               </h2>
-              <Link to='/' className=' d-block btn btn-dark btn-lg'>
+              <Link to="/" className=" d-block btn btn-dark btn-lg">
                 Home
               </Link>
             </section>
