@@ -133,6 +133,14 @@ function NavigationBar() {
           UseLayoutEffect Demo
         </Link>
       </button>
+      <button className="btn btn-dark d-block">
+        <Link
+          className="text-decoration-none text-white"
+          to="use-imperative-handle"
+        >
+          UseImperativeHandle Demo
+        </Link>
+      </button>
     </div>
   );
 }

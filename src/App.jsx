@@ -32,6 +32,7 @@ import Filter from "./test_components/Filter";
 import UseMemo from "./test_components/UseMemo";
 import UseRefDemo2 from "./components/allHooks/all_hooks_components/UseRefDemo2";
 import UseLayoutEffect from "./components/allHooks/all_hooks_components/UseLayoutEffect";
+import UseImperativeHandle from "./components/allHooks/all_hooks_components/UseImperativeHandle";
 
 function App() {
   const Router = createBrowserRouter(
@@ -64,6 +65,7 @@ function App() {
         <Route path="filter" element={<Filter />} />
         <Route path="use-memo" element={<UseMemo />} />
         <Route path="use-layout-effect" element={<UseLayoutEffect />} />
+        <Route path="use-imperative-handle" element={<UseImperativeHandle />} />
         <Route
           path="*"
           element={
