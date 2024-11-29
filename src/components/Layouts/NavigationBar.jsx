@@ -17,6 +17,19 @@ function NavigationBar() {
         </Link>
       </button>
       <button className='btn btn-dark d-block'>
+        <Link className='text-decoration-none text-white' to='context-app'>
+          Context Booklist App
+        </Link>
+      </button>
+      <button className='btn btn-dark d-block'>
+        <Link
+          className='text-decoration-none text-white'
+          to='bookstore-context-app'
+        >
+          Context Bookstore App
+        </Link>
+      </button>
+      <button className='btn btn-dark d-block'>
         <Link className='text-decoration-none text-white' to='react-info-app'>
           React Info App
         </Link>

@@ -18,6 +18,8 @@ import TenziesApp from "./components/tenzies_game_project/TenziesApp";
 import TodoList from "./components/project_folders/todo_app/TodoList";
 import Calculator from "./components/project_folders/calculator_app/Calculator";
 import AllHooksApp from "./components/allHooks/AllHooksApp";
+import ContextApp from "./components/useContextHook/ContextApp";
+import BookstoreApp from "./components/project_folders/bookstore-context-app/BookstoreApp";
 
 // TEST PAGES IMPORTS
 import ConditionalRendering from "./test_components/ConditionalRendering";
@@ -47,6 +49,9 @@ function App() {
         <Route path='todolist-app' element={<TodoList />} />
         <Route path='calculator-app' element={<Calculator />} />
         <Route path='all-react-hooks' element={<AllHooksApp />} />
+        <Route path='context-app' element={<ContextApp />} />
+        <Route path='bookstore-context-app' element={<BookstoreApp />} />
+
         {/* TEST PROJECTS ROUTES */}
         <Route
           path='conditional-rendering'

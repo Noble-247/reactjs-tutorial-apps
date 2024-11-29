@@ -20,7 +20,8 @@
     "react-mde": "^11.5.0",
     "react-router-dom": "^6.24.1",
     "react-split": "^2.0.14",
-    "showdown": "^2.1.0"
+    "showdown": "^2.1.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
