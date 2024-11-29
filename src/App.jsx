@@ -27,12 +27,14 @@ import ReactVideoPlayer from "./test_components/ReactVideoPlayer";
 import ListItems from "./test_components/ListItems";
 import SignupForm from "./test_components/SignupForm";
 import UseReducer from "./test_components/UseReducer";
-import UseRef from "./test_components/UseRef";
 import ReactChildren from "./test_components/ReactChildren";
 import AddToList from "./test_components/AddToList";
 import UseReducer2 from "./test_components/UseReducer2";
 import Filter from "./test_components/Filter";
 import UseMemo from "./test_components/UseMemo";
+import UseRefDemo2 from "./components/allHooks/all_hooks_components/UseRefDemo2";
+import UseLayoutEffect from "./components/allHooks/all_hooks_components/UseLayoutEffect";
+import UseImperativeHandle from "./components/allHooks/all_hooks_components/UseImperativeHandle";
 
 function App() {
   const Router = createBrowserRouter(
@@ -61,12 +63,14 @@ function App() {
         <Route path='list-items' element={<ListItems />} />
         <Route path='signup-form' element={<SignupForm />} />
         <Route path='use-reducer' element={<UseReducer />} />
-        <Route path='use-ref' element={<UseRef />} />
+        <Route path='use-ref' element={<UseRefDemo2 />} />
         <Route path='react-children' element={<ReactChildren />} />
         <Route path='add-to-list' element={<AddToList />} />
         <Route path='use-reducer-2' element={<UseReducer2 />} />
         <Route path='filter' element={<Filter />} />
         <Route path='use-memo' element={<UseMemo />} />
+        <Route path='use-layout-effect' element={<UseLayoutEffect />} />
+        <Route path='use-imperative-handle' element={<UseImperativeHandle />} />
         <Route
           path='*'
           element={

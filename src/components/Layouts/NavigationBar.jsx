@@ -133,6 +133,27 @@ function NavigationBar() {
           UseMemo Demo
         </Link>
       </button>
+      <button className='btn btn-dark d-block'>
+        <Link className='text-decoration-none text-white' to='use-ref'>
+          UseRef Demo
+        </Link>
+      </button>
+      <button className='btn btn-dark d-block'>
+        <Link
+          className='text-decoration-none text-white'
+          to='use-layout-effect'
+        >
+          UseLayoutEffect Demo
+        </Link>
+      </button>
+      <button className='btn btn-dark d-block'>
+        <Link
+          className='text-decoration-none text-white'
+          to='use-imperative-handle'
+        >
+          UseImperativeHandle Demo
+        </Link>
+      </button>
     </div>
   );
 }
